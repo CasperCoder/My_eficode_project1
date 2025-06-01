@@ -16,6 +16,18 @@ There is possibility to run both at the same time thanks to docker-compose.yaml 
 Hot-reload
 For this fuction, switching branch to "hot-reload" is needed. Then using command "docker compose up" in the main directory will build container with volumes that allowing hot-reload option.
 
+AWS Hosting
+App is available at the http://13.49.80.29 or http://project.eficode_recruitment.homlab.space
+
+You should be able to ssh to aws instance with command
+	ssh -i "id_rsa_internship.pem" ubuntu@ec2-13-49-80-29.eu-north-1.compute.amazonaws.com
+From directory when private key is stored
+
+Ansible and Terraform
+Ufortunatelly with my level of knowledge i was not able to implement fuctionality of ansible and terraform automation in desired time, since these tools are on my scope to learn at this moment
+
+
+
 # Weatherapp
 
 There was a beautiful idea of building an app that would show the upcoming weather. The developers wrote a nice backend and a frontend following the latest principles and - to be honest - bells and whistles. However, the developers did not remember to add any information about the infrastructure or even setup instructions in the source code.
