@@ -16,7 +16,7 @@ There is possibility to run both at the same time thanks to docker-compose.yaml 
 Hot-reload
 For this fuction, switching branch to "hot-reload" is needed. Then using command "docker compose up" in the main directory will build container with volumes that allowing hot-reload option.
 
-AWS Hosting
+AWS Hosting (shut down 20250610)
 App is available at the http://13.49.80.29 or http://project.eficode_recruitment.homlab.space
 
 You should be able to ssh to aws instance with command
